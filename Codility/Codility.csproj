@@ -48,6 +48,7 @@
     <Compile Include="11\CountSemiprimes.cs" />
     <Compile Include="12\ChocolatesByNumbers.cs" />
     <Compile Include="12\CommonPrimeDivisors.cs" />
+    <Compile Include="13\Ladder.cs" />
     <Compile Include="1\BinaryGapFinder.cs" />
     <Compile Include="2\OddOccurrenceFinder.cs" />
     <Compile Include="3\ArrayRotater.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="9\MaxSliceSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

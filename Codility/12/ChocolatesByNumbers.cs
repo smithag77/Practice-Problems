@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Codility._12
+﻿namespace Codility._12
 {
     public class ChocolatesByNumbers
     {
+        public int solution(int N, int M)
+        {
+            return N / FindGCDRecursive(N, M);
+        }
 
         private static int FindGCDRecursive(int a, int b)
         {
@@ -20,8 +18,7 @@ namespace Codility._12
 
         public int CountChocolates(int N, int M)
         {
-            var lcm = N * M / FindGCDRecursive(N, M);
-            return lcm / M;
+            return N / FindGCDRecursive(N, M);
         }
     }
 }

@@ -47,6 +47,7 @@
     <Compile Include="11\CountNonDivisible.cs" />
     <Compile Include="11\CountSemiprimes.cs" />
     <Compile Include="12\ChocolatesByNumbers.cs" />
+    <Compile Include="12\CommonPrimeDivisors.cs" />
     <Compile Include="1\BinaryGapFinder.cs" />
     <Compile Include="2\OddOccurrenceFinder.cs" />
     <Compile Include="3\ArrayRotater.cs" />
